@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vivek Yadav | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Vivek Yadav — Data Analyst (Python, SQL, Excel, Power BI). Projects: E-Commerce Dashboard, Customer Churn EDA, Zomato Analysis, Job Market Excel Dashboard." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">Vivek<span>.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="https://github.com/VR-0702" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn btn-primary" href="#contact">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Open to Internship • Delhi / Gurgaon / Noida</p>
+          <h1>
+            Data Analyst & Python Developer<br />
+            <span class="muted">Python • SQL • Excel • Power BI</span>
+          </h1>
+          <p class="lead">
+            I analyze real-world datasets (7,000–9,000+ records), build dashboards, and extract business insights using
+            Python (Pandas, Seaborn, Streamlit) and Excel (Pivot Tables, Slicers).
+          </p>
+
+          <div class="cta">
+            <!-- IMPORTANT: Resume file yahin add karna (step 6 me bataya hai) -->
+            <a class="btn btn-primary" href="./Vivek_Yadav_Resume.pdf" download>Download Resume</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/vivek-yadav-448614381" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="mini">
+            <div class="mini-card">
+              <div class="mini-title">Projects</div>
+              <div class="mini-value">4+</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-title">Datasets</div>
+              <div class="mini-value">7K–9K+</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-title">Location</div>
+              <div class="mini-value">Rewari, HR</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2 class="card-title">Quick Summary</h2>
+          <ul class="checklist">
+            <li>EDA, cleaning, and visualization for business insights</li>
+            <li>Dashboards: Streamlit + Excel Pivot Charts</li>
+            <li>SQL basics: joins, group by, filtering, subqueries</li>
+            <li>Tools: Git, VS Code, Jupyter, MySQL, SQLite</li>
+          </ul>
+
+          <div class="social">
+            <a class="social-link" href="mailto:raovivekyadav765@gmail.com">raovivekyadav765@gmail.com</a>
+            <a class="social-link" href="tel:+919953246635">+91 9953246635</a>
+            <a class="social-link" href="https://github.com/VR-0702" target="_blank" rel="noreferrer">github.com/VR-0702</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Real-world analysis projects with clear KPIs, insights, and visualizations.</p>
+        </div>
+
+        <div class="grid">
+          <article class="project">
+            <div class="project-top">
+              <h3>E-Commerce Sales & Profit Dashboard</h3>
+              <span class="pill">Python • Streamlit</span>
+            </div>
+            <p class="muted">
+              Analyzed 9,000+ transactions; built dashboard for category-wise, regional and monthly trends; identified loss-generating products.
+            </p>
+            <ul class="bullets">
+              <li>KPIs: category sales, monthly trend, region sales, sales vs profit</li>
+              <li>Insights: Q4 peak season, strong sales-profit relationship</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="https://github.com/VR-0702/ecommerce-sales-dashboard" target="_blank" rel="noreferrer">View Code</a>
+              <span class="hint">Live demo: (optional later)</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <h3>Customer Churn Analysis (EDA)</h3>
+              <span class="pill">Python • EDA</span>
+            </div>
+            <p class="muted">
+              EDA on 7,000+ Telco records; identified churn drivers across contracts, pricing, tenure, and service type.
+            </p>
+            <ul class="bullets">
+              <li>Highest churn: month-to-month contracts</li>
+              <li>Higher churn: high monthly charges + fiber optic users</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="https://github.com/VR-0702/Customer-Churn-Analysis" target="_blank" rel="noreferrer">View Code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <h3>Zomato Restaurant Analysis</h3>
+              <span class="pill">Python • Pandas</span>
+            </div>
+            <p class="muted">
+              Cleaned and analyzed 7,000+ restaurant records; explored locality trends and price vs rating patterns.
+            </p>
+            <ul class="bullets">
+              <li>Weak correlation: higher price doesn’t guarantee higher rating</li>
+              <li>Found competitive clusters by locality and category</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="https://github.com/VR-0702/zomato-restaurant-analysis" target="_blank" rel="noreferrer">View Code</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <h3>Job Market Analysis Dashboard (Excel)</h3>
+              <span class="pill">Excel • Pivot • Slicers</span>
+            </div>
+            <p class="muted">
+              Excel dashboard on Kaggle job salaries dataset; analyzed salary trends, experience vs salary, and remote work distribution.
+            </p>
+            <ul class="bullets">
+              <li>Built pivot-based dashboard with slicers for filtering</li>
+              <li>Insight: fully remote roles dominate; salary increases with experience</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="https://github.com/VR-0702/Data-Science-Job-Market-Analysis-" target="_blank" rel="noreferrer">View Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">ATS-friendly keywords + real tools I use in projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <p>Python, SQL</p>
+          </div>
+          <div class="skill-card">
+            <h3>Libraries</h3>
+            <p>Pandas, NumPy, Matplotlib, Seaborn</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Excel, Power BI (Basic), Git, VS Code, Jupyter</p>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <p>MySQL, SQLite</p>
+          </div>
+          <div class="skill-card">
+            <h3>Core Analytics</h3>
+            <p>Data Cleaning, EDA, Visualization, KPI Tracking</p>
+          </div>
+          <div class="skill-card">
+            <h3>Soft Skills</h3>
+            <p>Problem Solving, Communication, Analytical Thinking</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Education</h2>
+          <p class="muted">Academic background.</p>
+        </div>
+
+        <div class="edu">
+          <div class="edu-item">
+            <h3>BCA — DSEU Dwarka Campus</h3>
+            <p class="muted">Delhi Skill and Entrepreneurship University • 2023–2026 • Semester 6</p>
+            <p class="muted">SGPA: Sem 2 (7.30) • Sem 3 (7.28) • Sem 4 (6.57)</p>
+          </div>
+
+          <div class="edu-item">
+            <h3>Class XII (CBSE) — 78.6%</h3>
+            <p class="muted">Yaduvanshi Shiksha Niketan, Rewari • 2023</p>
+          </div>
+
+          <div class="edu-item">
+            <h3>Class X (CBSE) — 73.8%</h3>
+            <p class="muted">Yaduvanshi Shiksha Niketan, Rewari • 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Fastest way to reach me.</p>
+        </div>
+
+        <div class="contact-card">
+          <div>
+            <h3>Vivek Yadav</h3>
+            <p class="muted">Open to internship opportunities (Delhi NCR).</p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:raovivekyadav765@gmail.com">Email Me</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/vivek-yadav-448614381" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/VR-0702" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Vivek Yadav</p>
+      <p class="muted">Built with HTML & CSS • Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  </script>
+</body>
+</html>
